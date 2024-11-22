@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Auth;
 
 // Route untuk halaman awal
 Route::get('/', function () {
-    return 'Hallo ID-Networkers!';
+    return view('welcome');
 });
 
 // Authentication Routes

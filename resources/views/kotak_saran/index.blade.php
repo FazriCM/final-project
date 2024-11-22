@@ -259,7 +259,7 @@
                         <li class="menu-title">Main</li>
 
                         <li>
-                            <a href="index.html" class="waves-effect">
+                            <a href="index.php" class="waves-effect">
                                 <i class="dripicons-device-desktop"></i>
                                 <span>Kotak Saran</span>
                             </a>
