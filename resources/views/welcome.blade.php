@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Home Page</title>
 
     <style>
         body {
-            height: 100%;
+            height: 100vh;
             margin: 0;
         }
 
@@ -45,6 +45,7 @@
                 sans-serif;
             margin-left: 30px;
             margin-top: 30px;
+            width: 700px
         }
 
         .garis {
@@ -142,7 +143,7 @@
         <div class="background-1">
             <h1 class="pembuka">
                 <span class="merah">Welcome</span> To <br />
-                Website Saran
+                Kotak Saran
             </h1>
             <p class="pembuka-2">
                 Website ini dibuat untuk kalian yang mau memberi saran ataupun Kritik

@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Saran extends Model
 {
-    protected $table = 'kotak_saran';
+    protected $table = 'saran';
     
 
     // mengenalkan semua column yang terdapat pada tabel tamu.

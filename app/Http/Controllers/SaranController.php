@@ -12,7 +12,8 @@ class SaranController extends Controller
      */
     public function index()
     {
-        return view ('kotak_saran.index');
+        $data = Saran::all();
+        return view ('form_siswa.form', compact('data'));
     }
 
     /**

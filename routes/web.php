@@ -18,3 +18,5 @@ Route::get('/home', [SaranController::class, 'index'])->name('home');
 
 // Route resource untuk fitur kotak saran
 Route::resource('kotak_saran', SaranController::class);
+
+Route::resource('form_siswa', SaranController::class);
