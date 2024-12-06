@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('saran', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('id_user');
             $table->string("judul");
             $table->string("tujuan");
             $table->date("tanggal");

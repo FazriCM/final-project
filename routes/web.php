@@ -7,14 +7,16 @@ use Illuminate\Support\Facades\Auth;
 
 // Route untuk halaman awal
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 // Authentication Routes
 Auth::routes();
 
 // Route untuk halaman home
-Route::get('/home', [SaranController::class, 'index'])->name('home');
+Route::get('/home', function(){
+    return view('home');
+})->name('home');
 
 // Route resource untuk fitur kotak saran
 Route::resource('kotak_saran', SaranController::class);
